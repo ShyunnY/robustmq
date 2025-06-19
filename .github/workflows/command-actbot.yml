@@ -23,6 +23,7 @@ jobs:
   actbot:
     runs-on: ubuntu-latest
     permissions:
+      # required permissions
       pull-requests: write
       issues: write
       contents: read
