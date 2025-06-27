@@ -23,9 +23,11 @@ jobs:
   actbot:
     runs-on: ubuntu-latest
     permissions:
+      # required permissions
       pull-requests: write
       issues: write
       contents: read
+      actions: write
     steps:
       - uses: actions/checkout@v2
       - uses: ShyunnY/actbot@v0.1.0
